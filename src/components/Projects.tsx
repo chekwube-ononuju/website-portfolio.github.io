@@ -7,6 +7,16 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "Credit Card Fraud Detection System",
+      description: "A project to create different machine learning models to detect fraud in credit card transactions. Implements multiple algorithms for accurate fraud detection with comprehensive data analysis.",
+      technologies: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Jupyter Notebook", "Data Analysis"],
+      githubUrl: "https://github.com/chekwube-ononuju/Credit-Card-Fraud-Detection-System-Project",
+      liveUrl: "#",
+      category: "AI & Machine Learning",
+      gradient: "from-red-500 to-orange-500",
+      icon: "🛡️"
+    },
+    {
       title: "Disney Image Generator",
       description: "Transform photos into magical Disney-style artwork using advanced AI models and image processing techniques. Features real-time preview and multiple artistic styles.",
       technologies: ["TypeScript", "Next.js", "AI/ML", "Image Processing", "Tailwind CSS"],

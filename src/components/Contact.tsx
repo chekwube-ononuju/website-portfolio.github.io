@@ -47,7 +47,7 @@ export default function Contact() {
             
             {/* Coding Memoji - Black guy with glasses coding on laptop */}
             <div className="text-8xl mb-6">
-              ��‍💻
+              👨🏾‍💻
             </div>
           </div>
           
