@@ -57,7 +57,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">Email</h4>
-                    <p className="text-gray-600 dark:text-gray-400">your.email@example.com</p>
+                    <p className="text-gray-600 dark:text-gray-400">chekwube.ononuju@ttu.edu</p>
                   </div>
                 </div>
 
@@ -71,7 +71,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">LinkedIn</h4>
-                    <p className="text-gray-600 dark:text-gray-400">linkedin.com/in/yourprofile</p>
+                    <p className="text-gray-600 dark:text-gray-400">linkedin.com/in/chekwubeononuju</p>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">GitHub</h4>
-                    <p className="text-gray-600 dark:text-gray-400">github.com/yourusername</p>
+                    <p className="text-gray-600 dark:text-gray-400">github.com/chekwube-ononuju</p>
                   </div>
                 </div>
 

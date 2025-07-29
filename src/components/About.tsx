@@ -2,8 +2,11 @@
 
 export default function About() {
   const skills = [
-    "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Python",
-    "PostgreSQL", "MongoDB", "AWS", "Docker", "Git", "Tailwind CSS"
+    "Python", "JavaScript", "TypeScript", "Java", "C#", "C++",
+    "React", "Next.js", "Node.js", "ASP.NET Core", "Flask", "Django",
+    "PostgreSQL", "MongoDB", "MySQL", "SQL Server",
+    "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy",
+    "AWS", "Azure", "Docker", "Git", "Linux", "Tailwind CSS"
   ];
 
   return (
@@ -24,19 +27,20 @@ export default function About() {
               </h3>
               <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  I&apos;m a passionate full-stack developer with over 3 years of experience
-                  building modern web applications. I specialize in creating scalable,
-                  user-friendly solutions using cutting-edge technologies.
+                  I&apos;m a passionate Computer Engineering student at Texas Tech University
+                  with strong expertise in software development, machine learning, and data science.
+                  I specialize in building scalable applications and solving complex technical challenges.
                 </p>
                 <p>
-                  My journey in software development started with a curiosity about how
-                  things work behind the scenes. This curiosity has driven me to
-                  continuously learn and adapt to new technologies and best practices.
+                  My experience spans across full-stack development, AI/ML implementation, and
+                  enterprise software solutions. I&apos;ve worked on projects ranging from Disney-style
+                  image generators using advanced AI models to enterprise-grade APIs with robust
+                  authentication systems.
                 </p>
                 <p>
                   When I&apos;m not coding, you can find me exploring new technologies,
-                  contributing to open-source projects, or sharing knowledge with the
-                  developer community.
+                  contributing to open-source projects, or working on innovative solutions
+                  that bridge the gap between AI and practical applications.
                 </p>
               </div>
             </div>

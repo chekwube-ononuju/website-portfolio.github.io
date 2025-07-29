@@ -3,40 +3,40 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
-      description: "Led development of microservices architecture serving 1M+ users. Mentored junior developers and improved system performance by 40%.",
-      technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
+      title: "Software Developer Intern",
+      company: "Dell Technologies",
+      period: "May 2024 - Aug 2024",
+      description: "Developed and maintained enterprise software solutions. Worked on full-stack applications using modern technologies and collaborated with cross-functional teams to deliver high-quality software products.",
+      technologies: ["JavaScript", "React", "Node.js", "SQL", "Git", "Agile"]
     },
     {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2021 - 2022",
-      description: "Built and maintained customer-facing web applications. Collaborated with design team to implement responsive UI components.",
-      technologies: ["Vue.js", "Python", "Django", "MongoDB", "Redis"]
+      title: "Research Assistant",
+      company: "Texas Tech University",
+      period: "Jan 2024 - Present",
+      description: "Conducting research in machine learning and data science applications. Developing AI models and analyzing large datasets to extract meaningful insights for academic research projects.",
+      technologies: ["Python", "TensorFlow", "PyTorch", "Data Analysis", "Machine Learning"]
     },
     {
-      title: "Junior Developer",
-      company: "Digital Agency",
-      period: "2020 - 2021",
-      description: "Developed and maintained client websites. Gained experience in multiple frameworks and database technologies.",
-      technologies: ["JavaScript", "PHP", "MySQL", "WordPress", "CSS3"]
+      title: "Teaching Assistant",
+      company: "Texas Tech University",
+      period: "Aug 2023 - Dec 2023",
+      description: "Assisted in teaching computer science courses, helping students understand programming concepts and debugging code. Graded assignments and provided feedback to improve student learning outcomes.",
+      technologies: ["Python", "Java", "C++", "Teaching", "Mentoring"]
     }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      period: "2016 - 2020",
-      description: "Graduated Magna Cum Laude. Focused on software engineering, data structures, and web development."
+      degree: "Bachelor of Science in Computer Engineering",
+      school: "Texas Tech University",
+      period: "Aug 2022 - May 2026 (Expected)",
+      description: "Currently pursuing a degree in Computer Engineering with focus on software development, machine learning, and computer systems. Relevant coursework includes Data Structures, Algorithms, Software Engineering, and AI/ML."
     },
     {
-      degree: "Full Stack Web Development Bootcamp",
-      school: "Code Academy",
-      period: "2020",
-      description: "Intensive 12-week program covering modern web development technologies and best practices."
+      degree: "High School Diploma",
+      school: "Previous Institution",
+      period: "2018 - 2022",
+      description: "Graduated with strong academic performance in mathematics and science, laying the foundation for engineering studies."
     }
   ];
 

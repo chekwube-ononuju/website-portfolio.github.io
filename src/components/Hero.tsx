@@ -51,8 +51,8 @@ export default function Hero() {
           </p>
           
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Building innovative solutions with AI, machine learning, and modern web technologies.
-            Passionate about creating impactful software that makes a difference.
+            Passionate about software engineering, machine learning, and full-stack development.
+            Experienced in building scalable applications and solving complex technical challenges.
           </p>
           
           {/* iOS-style buttons */}
