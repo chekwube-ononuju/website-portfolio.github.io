@@ -7,15 +7,13 @@ import Navigation from "@/components/Navigation";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <main className="bg-black min-h-screen">
       <Navigation />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Experience />
-        <Contact />
-      </main>
-    </div>
+      <Hero />
+      <About />
+      <Projects />
+      <Experience />
+      <Contact />
+    </main>
   );
 }
