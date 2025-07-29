@@ -42,7 +42,7 @@ export default function Skills() {
     },
     {
       title: "Cloud & DevOps",
-      skills: ["AWS", "Azure", "Docker", "Git", "CI/CD", "Linux", "REST APIs"]
+      skills: ["AWS (Certified)", "Azure", "Docker", "Git", "CI/CD", "Linux", "REST APIs"]
     },
     {
       title: "Databases",

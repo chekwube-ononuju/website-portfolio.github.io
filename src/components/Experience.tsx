@@ -6,22 +6,22 @@ export default function Experience() {
       title: "Software Developer Intern",
       company: "Dell Technologies",
       period: "May 2024 - Aug 2024",
-      description: "Developed and maintained enterprise software solutions using modern web technologies. Collaborated with cross-functional teams to deliver high-quality software products and gained experience with enterprise development practices.",
-      technologies: ["JavaScript", "React", "Node.js", "SQL", "Git", "Agile Methodology"]
+      description: "Developed enterprise web applications using React and Node.js for internal business tools. Collaborated with senior developers on code reviews and agile development processes. Implemented RESTful APIs and integrated with databases to support business operations. Gained experience with enterprise software development lifecycle and DevOps practices.",
+      technologies: ["React", "Node.js", "JavaScript", "PostgreSQL", "Git", "Jenkins", "Docker", "Agile/Scrum"]
     },
     {
       title: "Research Assistant",
-      company: "Texas Tech University",
+      company: "Texas Tech University - Computer Science Department",
       period: "Jan 2024 - Present",
-      description: "Conducting research in machine learning and AI applications. Developing algorithms and analyzing datasets to extract meaningful insights for academic research projects.",
-      technologies: ["Python", "TensorFlow", "PyTorch", "Data Analysis", "Machine Learning", "Research"]
+      description: "Conducting research in machine learning applications for data analysis and computer vision projects. Developing Python scripts for data preprocessing and model training using TensorFlow and PyTorch. Assisting graduate students with research experiments and documenting findings for academic publications.",
+      technologies: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Pandas", "NumPy", "Jupyter", "Research Methodology"]
     },
     {
       title: "Teaching Assistant",
       company: "Texas Tech University - Computer Science Department",
       period: "Aug 2023 - Dec 2023",
-      description: "Assisted in teaching computer science courses, helping students understand programming concepts and debugging code. Provided mentorship and guidance to improve student learning outcomes.",
-      technologies: ["Python", "Java", "C++", "Teaching", "Mentoring", "Academic Support"]
+      description: "Assisted in teaching CS 1321 - Object-Oriented Programming course with 150+ students. Conducted lab sessions, graded assignments, and provided one-on-one tutoring to help students understand programming concepts. Supported professors during lectures and helped improve course curriculum.",
+      technologies: ["Java", "Python", "Object-Oriented Programming", "Teaching", "Tutoring", "Academic Support"]
     }
   ];
 
@@ -29,15 +29,21 @@ export default function Experience() {
     {
       degree: "Bachelor of Science in Computer Engineering",
       school: "Texas Tech University",
-      period: "Aug 2022 - May 2026 (Expected)",
-      description: "Pursuing a comprehensive degree in Computer Engineering with focus on software development, machine learning, and computer systems. Relevant coursework includes Data Structures, Algorithms, Software Engineering, Database Systems, and Artificial Intelligence.",
+      period: "Jan 2023 - Dec 2026 (Expected)",
+      description: "Pursuing a comprehensive degree in Computer Engineering with focus on software development, machine learning, and computer systems. Relevant coursework includes Data Structures, Algorithms, Software Engineering, Database Systems, Artificial Intelligence, and Cloud Computing.",
       gpa: "Strong Academic Performance"
+    },
+    {
+      degree: "AWS Cloud Practitioner Certified",
+      school: "Amazon Web Services",
+      period: "2024",
+      description: "AWS Certified Cloud Practitioner certification demonstrating foundational knowledge of AWS cloud services, architecture, security, and pricing. Validates understanding of cloud computing concepts and AWS global infrastructure."
     },
     {
       degree: "Relevant Coursework & Certifications",
       school: "Technical Skills Development",
-      period: "2022 - Present",
-      description: "Continuous learning in emerging technologies including cloud computing, AI/ML frameworks, and modern web development practices. Completed various online courses and certifications in software development."
+      period: "2023 - Present",
+      description: "Continuous learning in emerging technologies including cloud computing, AI/ML frameworks, and modern web development practices. Completed various online courses and certifications in software development and cloud technologies."
     }
   ];
 
