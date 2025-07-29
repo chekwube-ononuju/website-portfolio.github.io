@@ -27,8 +27,15 @@ export default function Experience() {
       title: "Research Assistant",
       company: "Texas Tech University - Computer Science Department",
       period: "Jan 2024 - Present",
-      description: "Conducting research in machine learning applications for data analysis and computer vision projects. Developing Python scripts for data preprocessing and model training using TensorFlow and PyTorch. Assisting graduate students with research experiments and documenting findings for academic publications.",
-      technologies: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Pandas", "NumPy", "Jupyter", "Research Methodology"]
+      description: "Conducting research in machine learning applications for data analysis and robotics projects. Developing Python scripts for data preprocessing and model training using TensorFlow and PyTorch. Assisting graduate students with research experiments and documenting findings for academic publications.",
+      technologies: ["Python", "TensorFlow", "PyTorch", "Robotics", "Pandas", "NumPy", "Jupyter", "Research Methodology"]
+    },
+    {
+      title: "Robotics Team Member",
+      company: "Texas Tech University - Robotics Club",
+      period: "Sep 2023 - Present",
+      description: "Developing autonomous robotics systems using embedded programming and sensor integration. Working on robot navigation, obstacle detection, and mechanical design. Programming microcontrollers and implementing control algorithms for competitive robotics events.",
+      technologies: ["C++", "Arduino", "Raspberry Pi", "Sensors", "Robotics", "Embedded Systems", "Control Systems"]
     }
   ];
 

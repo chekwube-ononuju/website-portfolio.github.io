@@ -30,7 +30,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "SQL", "HTML/CSS"]
+      skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "SQL", "HTML/CSS", "Verilog", "Assembly"]
     },
     {
       title: "Frameworks & Libraries",
@@ -38,7 +38,7 @@ export default function Skills() {
     },
     {
       title: "AI/ML & Data Science",
-      skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "OpenAI API", "Computer Vision"]
+      skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "OpenAI API", "Robotics"]
     },
     {
       title: "Cloud & DevOps",

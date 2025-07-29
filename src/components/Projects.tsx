@@ -65,16 +65,6 @@ export default function Projects() {
       category: "Data Science",
       gradient: "from-orange-500 to-red-500",
       icon: "📈"
-    },
-    {
-      title: "Portfolio Website",
-      description: "Modern, responsive portfolio website built with Next.js and Tailwind CSS. Features iOS-inspired design, smooth animations, and optimal performance.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-      githubUrl: "https://github.com/chekwube-ononuju/website-portfolio",
-      liveUrl: "#",
-      category: "Web Development",
-      gradient: "from-cyan-500 to-blue-500",
-      icon: "💼"
     }
   ];
 
