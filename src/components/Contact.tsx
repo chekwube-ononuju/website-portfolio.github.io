@@ -39,15 +39,15 @@ export default function Contact() {
             </h2>
             
             <a
-              href="mailto:chekwube.ononuju@ttu.edu"
+              href="mailto:chekwube.s.ononuju@gmail.com"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 mb-8"
             >
               Email me
             </a>
             
-            {/* Memoji - Using a waving emoji as placeholder */}
+            {/* Coding Memoji - Black guy with glasses coding on laptop */}
             <div className="text-8xl mb-6">
-              👋🏽
+              ��‍💻
             </div>
           </div>
           

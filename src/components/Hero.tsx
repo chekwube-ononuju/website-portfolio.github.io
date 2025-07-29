@@ -25,8 +25,14 @@ export default function Hero() {
             Chekwube Ononuju
           </h1>
           
-          <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto font-medium">
-            Computer Engineering Student
+          <p className="text-xl sm:text-2xl text-gray-300 mb-4 max-w-2xl mx-auto font-medium">
+            Computer Engineering Student at{" "}
+            <span className="text-blue-400">Texas Tech University</span>
+          </p>
+          
+          <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto">
+            Passionate about AI, software development, and building innovative solutions.
+            Experience with full-stack development, machine learning, and enterprise applications.
           </p>
           
           {/* Action buttons */}

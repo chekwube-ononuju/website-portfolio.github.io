@@ -40,7 +40,7 @@ export default function About() {
             </h3>
             
             <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
-              I&apos;m a developer that creates web and mobile applications. I have a strong foundation in full-stack development and cloud technologies. From my experience at big tech and side projects, I&apos;ve developed a good eye for building user-focused products that solve real problems.
+              I&apos;m a Computer Engineering student at Texas Tech University with a strong foundation in software development, machine learning, and data science. I have experience working with enterprise technologies and building scalable applications. My recent internship at Dell Technologies and various projects have given me hands-on experience with modern development practices and cloud technologies.
             </p>
           </div>
         </div>

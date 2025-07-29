@@ -6,22 +6,22 @@ export default function Experience() {
       title: "Software Developer Intern",
       company: "Dell Technologies",
       period: "May 2024 - Aug 2024",
-      description: "Developed and maintained enterprise software solutions. Worked on full-stack applications using modern technologies and collaborated with cross-functional teams to deliver high-quality software products.",
-      technologies: ["JavaScript", "React", "Node.js", "SQL", "Git", "Agile"]
+      description: "Developed and maintained enterprise software solutions using modern web technologies. Collaborated with cross-functional teams to deliver high-quality software products and gained experience with enterprise development practices.",
+      technologies: ["JavaScript", "React", "Node.js", "SQL", "Git", "Agile Methodology"]
     },
     {
       title: "Research Assistant",
       company: "Texas Tech University",
       period: "Jan 2024 - Present",
-      description: "Conducting research in machine learning and data science applications. Developing AI models and analyzing large datasets to extract meaningful insights for academic research projects.",
-      technologies: ["Python", "TensorFlow", "PyTorch", "Data Analysis", "Machine Learning"]
+      description: "Conducting research in machine learning and AI applications. Developing algorithms and analyzing datasets to extract meaningful insights for academic research projects.",
+      technologies: ["Python", "TensorFlow", "PyTorch", "Data Analysis", "Machine Learning", "Research"]
     },
     {
       title: "Teaching Assistant",
-      company: "Texas Tech University",
+      company: "Texas Tech University - Computer Science Department",
       period: "Aug 2023 - Dec 2023",
-      description: "Assisted in teaching computer science courses, helping students understand programming concepts and debugging code. Graded assignments and provided feedback to improve student learning outcomes.",
-      technologies: ["Python", "Java", "C++", "Teaching", "Mentoring"]
+      description: "Assisted in teaching computer science courses, helping students understand programming concepts and debugging code. Provided mentorship and guidance to improve student learning outcomes.",
+      technologies: ["Python", "Java", "C++", "Teaching", "Mentoring", "Academic Support"]
     }
   ];
 
@@ -30,13 +30,14 @@ export default function Experience() {
       degree: "Bachelor of Science in Computer Engineering",
       school: "Texas Tech University",
       period: "Aug 2022 - May 2026 (Expected)",
-      description: "Currently pursuing a degree in Computer Engineering with focus on software development, machine learning, and computer systems. Relevant coursework includes Data Structures, Algorithms, Software Engineering, and AI/ML."
+      description: "Pursuing a comprehensive degree in Computer Engineering with focus on software development, machine learning, and computer systems. Relevant coursework includes Data Structures, Algorithms, Software Engineering, Database Systems, and Artificial Intelligence.",
+      gpa: "Strong Academic Performance"
     },
     {
-      degree: "High School Diploma",
-      school: "Previous Institution",
-      period: "2018 - 2022",
-      description: "Graduated with strong academic performance in mathematics and science, laying the foundation for engineering studies."
+      degree: "Relevant Coursework & Certifications",
+      school: "Technical Skills Development",
+      period: "2022 - Present",
+      description: "Continuous learning in emerging technologies including cloud computing, AI/ML frameworks, and modern web development practices. Completed various online courses and certifications in software development."
     }
   ];
 
