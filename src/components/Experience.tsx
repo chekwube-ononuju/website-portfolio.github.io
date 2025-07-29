@@ -3,11 +3,25 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Software Developer Intern",
-      company: "Dell Technologies",
-      period: "May 2024 - Aug 2024",
-      description: "Developed enterprise web applications using React and Node.js for internal business tools. Collaborated with senior developers on code reviews and agile development processes. Implemented RESTful APIs and integrated with databases to support business operations. Gained experience with enterprise software development lifecycle and DevOps practices.",
-      technologies: ["React", "Node.js", "JavaScript", "PostgreSQL", "Git", "Jenkins", "Docker", "Agile/Scrum"]
+      title: "Google Software Engineering Program (G-SWEP) Mentee",
+      company: "Google x Basta",
+      period: "March 2025 - May 2025",
+      description: "Partnered with Google SWE on 8+ Python algorithms, improving accuracy from 60% to 90%. Reduced algorithm implementation time by 30% through optimization and clean code practices. Participated in intensive software engineering mentorship program.",
+      technologies: ["Python", "Algorithms", "Code Optimization", "Software Engineering", "Mentorship"]
+    },
+    {
+      title: "Open-Source Contributor",
+      company: "Color Stack",
+      period: "Dec 2024 - Present",
+      description: "Optimized COIN-OR Ipopt solver implementation, reducing setup time by 20 minutes and improving performance by 7%. Created comprehensive best-practices guide for MPI/MUMPS integration, enhancing developer productivity.",
+      technologies: ["COIN-OR Ipopt", "MPI", "MUMPS", "Performance Optimization", "Documentation", "Open Source"]
+    },
+    {
+      title: "Software Engineer Extern",
+      company: "Webacy",
+      period: "Sep 2024 - Oct 2024",
+      description: "Engineered unsupervised ML clustering for 50+ smart contracts, reducing vulnerabilities by 20%. Worked remotely to develop machine learning solutions for blockchain security and smart contract analysis.",
+      technologies: ["Python", "Machine Learning", "Unsupervised Clustering", "Smart Contracts", "Blockchain", "Security"]
     },
     {
       title: "Research Assistant",
@@ -15,13 +29,6 @@ export default function Experience() {
       period: "Jan 2024 - Present",
       description: "Conducting research in machine learning applications for data analysis and computer vision projects. Developing Python scripts for data preprocessing and model training using TensorFlow and PyTorch. Assisting graduate students with research experiments and documenting findings for academic publications.",
       technologies: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Pandas", "NumPy", "Jupyter", "Research Methodology"]
-    },
-    {
-      title: "Teaching Assistant",
-      company: "Texas Tech University - Computer Science Department",
-      period: "Aug 2023 - Dec 2023",
-      description: "Assisted in teaching CS 1321 - Object-Oriented Programming course with 150+ students. Conducted lab sessions, graded assignments, and provided one-on-one tutoring to help students understand programming concepts. Supported professors during lectures and helped improve course curriculum.",
-      technologies: ["Java", "Python", "Object-Oriented Programming", "Teaching", "Tutoring", "Academic Support"]
     }
   ];
 
@@ -38,12 +45,6 @@ export default function Experience() {
       school: "Amazon Web Services",
       period: "2024",
       description: "AWS Certified Cloud Practitioner certification demonstrating foundational knowledge of AWS cloud services, architecture, security, and pricing. Validates understanding of cloud computing concepts and AWS global infrastructure."
-    },
-    {
-      degree: "Relevant Coursework & Certifications",
-      school: "Technical Skills Development",
-      period: "2023 - Present",
-      description: "Continuous learning in emerging technologies including cloud computing, AI/ML frameworks, and modern web development practices. Completed various online courses and certifications in software development and cloud technologies."
     }
   ];
 
