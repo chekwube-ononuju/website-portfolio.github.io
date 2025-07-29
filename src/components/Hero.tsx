@@ -1,12 +1,20 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false);
+  const [profilePicture, setProfilePicture] = useState<string | null>(null);
 
   useEffect(() => {
     setIsVisible(true);
+    
+    // Check for uploaded profile picture
+    const savedProfilePic = localStorage.getItem('profilePicture');
+    if (savedProfilePic) {
+      setProfilePicture(savedProfilePic);
+    }
   }, []);
 
   return (
@@ -25,10 +33,27 @@ export default function Hero() {
           {/* Profile Image with iOS-style design */}
           <div className="mb-8 transform hover:scale-105 transition-transform duration-300">
             <div className="relative w-40 h-40 mx-auto mb-8">
-              <div className="w-40 h-40 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center text-white text-4xl font-bold shadow-2xl backdrop-blur-sm border border-white/20">
-                CO
-              </div>
-              <div className="absolute -inset-1 bg-gradient-to-br from-indigo-400 to-purple-600 rounded-3xl blur opacity-25 animate-pulse"></div>
+              {profilePicture ? (
+                <>
+                  <div className="relative w-40 h-40 rounded-3xl overflow-hidden shadow-2xl backdrop-blur-sm border border-white/20">
+                    <Image
+                      src={profilePicture}
+                      alt="Chekwube Ononuju"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="absolute -inset-1 bg-gradient-to-br from-indigo-400 to-purple-600 rounded-3xl blur opacity-25 animate-pulse"></div>
+                </>
+              ) : (
+                <>
+                  <div className="w-40 h-40 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center text-white text-4xl font-bold shadow-2xl backdrop-blur-sm border border-white/20">
+                    CO
+                  </div>
+                  <div className="absolute -inset-1 bg-gradient-to-br from-indigo-400 to-purple-600 rounded-3xl blur opacity-25 animate-pulse"></div>
+                </>
+              )}
             </div>
           </div>
           
@@ -110,6 +135,17 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      
+      {/* Floating Admin Button */}
+      <a
+        href="/admin"
+        className="fixed top-4 right-4 z-50 bg-white/20 dark:bg-gray-800/40 backdrop-blur-lg p-3 rounded-2xl shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 border border-white/30 dark:border-gray-700/50 group"
+        title="Admin Panel - Upload Profile Picture"
+      >
+        <svg className="w-5 h-5 text-gray-700 dark:text-gray-300 group-hover:text-indigo-600 dark:group-hover:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"/>
+        </svg>
+      </a>
     </section>
   );
 }
