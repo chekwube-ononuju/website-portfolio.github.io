@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function Projects() {
-  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
+  const [, setHoveredProject] = useState<number | null>(null);
 
   const projects = [
     {
